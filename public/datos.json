@@ -1,0 +1,1088 @@
+{
+  "datos": {
+    "DatosPersonales": [
+      {
+        "Nombre": "TipoIdentificación",
+        "Etiqueta": "Tipo de identificación",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "CC",
+            "Valor": "Cédula de ciudadanía"
+          },
+          {
+            "Id": "RC",
+            "Valor": "Registro civil"
+          },
+          {
+            "Id": "TI",
+            "Valor": "Tarjeta de identidad"
+          },
+          {
+            "Id": "NUIP",
+            "Valor": "Número único de identificación personal"
+          },
+          {
+            "Id": "CE",
+            "Valor": "Cédula de extranjería"
+          },
+          {
+            "Id": "PEP",
+            "Valor": "Permiso especial de permanencia"
+          },
+          {
+            "Id": "SC",
+            "Valor": "Salvo conducto"
+          },
+          {
+            "Id": "CD",
+            "Valor": "Carnet diplomático"
+          },
+          {
+            "Id": "CN",
+            "Valor": "Certificado nacido vivo"
+          },
+          {
+            "Id": "MS",
+            "Valor": "Menor sin identificación"
+          },
+          {
+            "Id": "AS",
+            "Valor": "Adulto sin identificación"
+          },
+          {
+            "Id": "DE",
+            "Valor": "Documento extranjero"
+          },
+          {
+            "Id": "PT",
+            "Valor": "Permiso de protección temporal"
+          }
+        ]
+      },
+      {
+        "Nombre": "NumeroIdentificación",
+        "Etiqueta": "Número de identificación",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Eps",
+        "Etiqueta": "Eps",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Afp",
+        "Etiqueta": "Afp",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Arl",
+        "Etiqueta": "Arl",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "EstadoCivil",
+        "Etiqueta": "Estado civil",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "Soltero",
+            "Valor": "Soltero(a)"
+          },
+          {
+            "Id": "Casado",
+            "Valor": "Casado(a)"
+          },
+          {
+            "Id": "Separado",
+            "Valor": "Separado(a)"
+          },
+          {
+            "Id": "Divorciado",
+            "Valor": "Divorciado(a)"
+          },
+          {
+            "Id": "Viudo",
+            "Valor": "Viudo(a)"
+          },
+          {
+            "Id": "UnionLibre",
+            "Valor": "Unión libre"
+          }
+        ]
+      },
+      {
+        "Nombre": "FechaNacimiento",
+        "Etiqueta": "Fecha nacimiento",
+        "Obligatorio": true,
+        "Tipo": "Date"
+      },
+      {
+        "Nombre": "PrimerApellido",
+        "Etiqueta": "Primer apellido",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "SegundoApellido",
+        "Etiqueta": "Segundo apellido",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "PrimerNombre",
+        "Etiqueta": "Primer nombre",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "OtrosNombres",
+        "Etiqueta": "Otros nombres",
+        "Obligatorio": false,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Genero",
+        "Etiqueta": "Género",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "Masculino",
+            "Valor": "Masculino"
+          },
+          {
+            "Id": "Femenino",
+            "Valor": "Femenino",
+            "Adicional": [
+              {
+                "Nombre": "Menarquia",
+                "Etiqueta": "Edad de la primera menstruación",
+                "Obligatorio": true,
+                "Tipo": "InputText"
+              },
+              {
+                "Nombre": "Ciclo Menstrual",
+                "Etiqueta": "Comportamieto del ciclo menstrual",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Regular",
+                    "Valor": "Regular"
+                  },
+                  {
+                    "Id": "Irregular",
+                    "Valor": "Irregular"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Gestaciones",
+                "Etiqueta": "Número de embarazos",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Gestaciones0",
+                    "Valor": "0"
+                  },
+                  {
+                    "Id": "Gestaciones1",
+                    "Valor": "1"
+                  },
+                  {
+                    "Id": "Gestaciones2",
+                    "Valor": "2"
+                  },
+                  {
+                    "Id": "Gestaciones3",
+                    "Valor": "3"
+                  },
+                  {
+                    "Id": "Gestaciones4",
+                    "Valor": "4"
+                  },
+                  {
+                    "Id": "Gestaciones5",
+                    "Valor": "5"
+                  },
+                  {
+                    "Id": "Gestaciones6",
+                    "Valor": "6"
+                  },
+                  {
+                    "Id": "Gestaciones7",
+                    "Valor": "7"
+                  },
+                  {
+                    "Id": "Gestaciones8",
+                    "Valor": "8"
+                  },
+                  {
+                    "Id": "Gestaciones9",
+                    "Valor": "9"
+                  },
+                  {
+                    "Id": "Gestaciones10",
+                    "Valor": "10"
+                  },
+                  {
+                    "Id": "Gestaciones11",
+                    "Valor": "11"
+                  },
+                  {
+                    "Id": "Gestaciones12",
+                    "Valor": "12"
+                  },
+                  {
+                    "Id": "Gestaciones13",
+                    "Valor": "13"
+                  },
+                  {
+                    "Id": "Gestaciones14",
+                    "Valor": "14"
+                  },
+                  {
+                    "Id": "Gestaciones15",
+                    "Valor": "15"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Partos",
+                "Etiqueta": "Número de partos",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Partos0",
+                    "Valor": "0"
+                  },
+                  {
+                    "Id": "Partos1",
+                    "Valor": "1"
+                  },
+                  {
+                    "Id": "Partos2",
+                    "Valor": "2"
+                  },
+                  {
+                    "Id": "Partos3",
+                    "Valor": "3"
+                  },
+                  {
+                    "Id": "Partos4",
+                    "Valor": "4"
+                  },
+                  {
+                    "Id": "Partos5",
+                    "Valor": "5"
+                  },
+                  {
+                    "Id": "Partos6",
+                    "Valor": "6"
+                  },
+                  {
+                    "Id": "Partos7",
+                    "Valor": "7"
+                  },
+                  {
+                    "Id": "Partos8",
+                    "Valor": "8"
+                  },
+                  {
+                    "Id": "Partos9",
+                    "Valor": "9"
+                  },
+                  {
+                    "Id": "Partos10",
+                    "Valor": "10"
+                  },
+                  {
+                    "Id": "Partos11",
+                    "Valor": "11"
+                  },
+                  {
+                    "Id": "Partos12",
+                    "Valor": "12"
+                  },
+                  {
+                    "Id": "Partos13",
+                    "Valor": "13"
+                  },
+                  {
+                    "Id": "Partos14",
+                    "Valor": "14"
+                  },
+                  {
+                    "Id": "Partos15",
+                    "Valor": "15"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Gemelares",
+                "Etiqueta": "Embarazos gemelares",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Gemelares0",
+                    "Valor": "0"
+                  },
+                  {
+                    "Id": "Gemelares1",
+                    "Valor": "1"
+                  },
+                  {
+                    "Id": "Gemelares2",
+                    "Valor": "2"
+                  },
+                  {
+                    "Id": "Gemelares3",
+                    "Valor": "3"
+                  },
+                  {
+                    "Id": "Gemelares4",
+                    "Valor": "4"
+                  },
+                  {
+                    "Id": "Gemelares5",
+                    "Valor": "5"
+                  },
+                  {
+                    "Id": "Gemelares6",
+                    "Valor": "6"
+                  },
+                  {
+                    "Id": "Gemelares7",
+                    "Valor": "7"
+                  },
+                  {
+                    "Id": "Gemelares8",
+                    "Valor": "8"
+                  },
+                  {
+                    "Id": "Gemelares9",
+                    "Valor": "9"
+                  },
+                  {
+                    "Id": "Gemelares10",
+                    "Valor": "10"
+                  },
+                  {
+                    "Id": "Gemelares11",
+                    "Valor": "11"
+                  },
+                  {
+                    "Id": "Gemelares12",
+                    "Valor": "12"
+                  },
+                  {
+                    "Id": "Gemelares13",
+                    "Valor": "13"
+                  },
+                  {
+                    "Id": "Gemelares14",
+                    "Valor": "14"
+                  },
+                  {
+                    "Id": "Gemelares15",
+                    "Valor": "15"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Ectopicos",
+                "Etiqueta": "Embarazos ectópicos",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "EctopicoSi",
+                    "Valor": "Si"
+                  },
+                  {
+                    "Id": "EctopicoNo",
+                    "Valor": "No"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Molas",
+                "Etiqueta": "Embarazo molar",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "MolasSi",
+                    "Valor": "Si"
+                  },
+                  {
+                    "Id": "MolasNo",
+                    "Valor": "No"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Abortos",
+                "Etiqueta": "Número de abortos",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Abortos0",
+                    "Valor": "0"
+                  },
+                  {
+                    "Id": "Abortos1",
+                    "Valor": "1"
+                  },
+                  {
+                    "Id": "Abortos2",
+                    "Valor": "2"
+                  },
+                  {
+                    "Id": "Abortos3",
+                    "Valor": "3"
+                  },
+                  {
+                    "Id": "Abortos4",
+                    "Valor": "4"
+                  },
+                  {
+                    "Id": "Abortos5",
+                    "Valor": "5"
+                  },
+                  {
+                    "Id": "Abortos6",
+                    "Valor": "6"
+                  },
+                  {
+                    "Id": "Abortos7",
+                    "Valor": "7"
+                  },
+                  {
+                    "Id": "Abortos8",
+                    "Valor": "8"
+                  },
+                  {
+                    "Id": "Abortos9",
+                    "Valor": "9"
+                  },
+                  {
+                    "Id": "Abortos10",
+                    "Valor": "10"
+                  },
+                  {
+                    "Id": "Abortos11",
+                    "Valor": "11"
+                  },
+                  {
+                    "Id": "Abortos12",
+                    "Valor": "12"
+                  },
+                  {
+                    "Id": "Abortos13",
+                    "Valor": "13"
+                  },
+                  {
+                    "Id": "Abortos14",
+                    "Valor": "14"
+                  },
+                  {
+                    "Id": "Abortos15",
+                    "Valor": "15"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Cesareas",
+                "Etiqueta": "Número de cesareas",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "Cesareas0",
+                    "Valor": "0"
+                  },
+                  {
+                    "Id": "Cesareas1",
+                    "Valor": "1"
+                  },
+                  {
+                    "Id": "Cesareas2",
+                    "Valor": "2"
+                  },
+                  {
+                    "Id": "Cesareas3",
+                    "Valor": "3"
+                  },
+                  {
+                    "Id": "Cesareas4",
+                    "Valor": "4"
+                  },
+                  {
+                    "Id": "Cesareas5",
+                    "Valor": "5"
+                  },
+                  {
+                    "Id": "Cesareas6",
+                    "Valor": "6"
+                  },
+                  {
+                    "Id": "Cesareas7",
+                    "Valor": "7"
+                  },
+                  {
+                    "Id": "Cesareas8",
+                    "Valor": "8"
+                  },
+                  {
+                    "Id": "Cesareas9",
+                    "Valor": "9"
+                  },
+                  {
+                    "Id": "Cesareas10",
+                    "Valor": "10"
+                  },
+                  {
+                    "Id": "Cesareas11",
+                    "Valor": "11"
+                  },
+                  {
+                    "Id": "Cesareas12",
+                    "Valor": "12"
+                  },
+                  {
+                    "Id": "Cesareas13",
+                    "Valor": "13"
+                  },
+                  {
+                    "Id": "Cesareas14",
+                    "Valor": "14"
+                  },
+                  {
+                    "Id": "Cesareas15",
+                    "Valor": "15"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FUR",
+                "Etiqueta": "Fecha de la última regla",
+                "Obligatorio": true,
+                "Tipo": "Date"
+              },
+              {
+                "Nombre": "FUC",
+                "Etiqueta": "Fecha de la última citología",
+                "Obligatorio": true,
+                "Tipo": "Date"
+              },
+              {
+                "Nombre": "Menopausia",
+                "Etiqueta": "Menopausia",
+                "Obligatorio": true,
+                "Tipo": "Select",
+                "Opciones": [
+                  {
+                    "Id": "MenopausiaSi",
+                    "Valor": "Sí"
+                  },
+                  {
+                    "Id": "MenopausiaNo",
+                    "Valor": "No"
+                  },
+                  {
+                    "Id": "MenopausiaNoRegiere",
+                    "Valor": "No se"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "Indeterminado",
+            "Valor": "Indeterminado"
+          }
+        ]
+      },
+      {
+        "Nombre": "NivelEducativo",
+        "Etiqueta": "Nivel educativo",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "SinEstudio",
+            "Valor": "Sin estudio"
+          },
+          {
+            "Id": "Prescolar",
+            "Valor": "Prescolar"
+          },
+          {
+            "Id": "Primaria",
+            "Valor": "Primaria"
+          },
+          {
+            "Id": "Secundaria",
+            "Valor": "Secundaria"
+          },
+          {
+            "Id": "Tecnico",
+            "Valor": "Técnico"
+          },
+          {
+            "Id": "Tecnologo",
+            "Valor": "Tecnólogo"
+          },
+          {
+            "Id": "Universitario",
+            "Valor": "Universitario"
+          },
+          {
+            "Id": "Postgrado",
+            "Valor": "Postgrado"
+          },
+          {
+            "Id": "Doctorado",
+            "Valor": "Doctorado"
+          }
+        ]
+      },
+      {
+        "Nombre": "CorreoElectronico",
+        "Etiqueta": "Correo electrónico",
+        "Obligatorio": true,
+        "Tipo": "Email"
+      },
+      {
+        "Nombre": "Zona",
+        "Etiqueta": "Zona",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "Urbana",
+            "Valor": "Urbana"
+          },
+          {
+            "Id": "Rural",
+            "Valor": "Rural"
+          }
+        ]
+      },
+      {
+        "Nombre": "Direccion",
+        "Etiqueta": "Dirección",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Barrio",
+        "Etiqueta": "Barrio",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "Municipio",
+        "Etiqueta": "Municipio",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Salud Ocupacional": [
+          {
+            "Nombre": "TipoSangre",
+            "Etiqueta": "Tipo de Sangre",
+            "Obligatorio": true,
+            "Tipo": "Select",
+            "Opciones": [
+              {
+                "Id": "AP",
+                "Valor": "A+"
+              },
+              {
+                "Id": "AN",
+                "Valor": "A-"
+              },
+              {
+                "Id": "BP",
+                "Valor": "B+"
+              },
+              {
+                "Id": "BN",
+                "Valor": "B-"
+              },
+              {
+                "Id": "ABP",
+                "Valor": "AB+"
+              },
+              {
+                "Id": "ABN",
+                "Valor": "AB-"
+              },
+              {
+                "Id": "OP",
+                "Valor": "O+"
+              },
+              {
+                "Id": "ON",
+                "Valor": "O-"
+              },
+              {
+                "Id": "NoSabe",
+                "Valor": "No se"
+              }
+            ]
+          },
+          {
+            "Nombre": "NumeroHijos",
+            "Etiqueta": "Número de hijos",
+            "Obligatorio": true,
+            "Tipo": "Select",
+            "Opciones": [
+              {
+                "Id": "Hijos0",
+                "Valor": "0"
+              },
+              {
+                "Id": "Hijos1",
+                "Valor": "1"
+              },
+              {
+                "Id": "Hijos2",
+                "Valor": "2"
+              },
+              {
+                "Id": "Hijos3",
+                "Valor": "3"
+              },
+              {
+                "Id": "Hijos4",
+                "Valor": "4"
+              },
+              {
+                "Id": "Hijos5",
+                "Valor": "5"
+              },
+              {
+                "Id": "Hijos6",
+                "Valor": "6"
+              },
+              {
+                "Id": "Hijos7",
+                "Valor": "7"
+              },
+              {
+                "Id": "Hijos8",
+                "Valor": "8"
+              },
+              {
+                "Id": "Hijos9",
+                "Valor": "9"
+              },
+              {
+                "Id": "Hijos10",
+                "Valor": "10"
+              },
+              {
+                "Id": "Hijos11",
+                "Valor": "11"
+              },
+              {
+                "Id": "Hijos12",
+                "Valor": "12"
+              },
+              {
+                "Id": "Hijos13",
+                "Valor": "13"
+              },
+              {
+                "Id": "Hijos14",
+                "Valor": "14"
+              },
+              {
+                "Id": "Hijos15",
+                "Valor": "15"
+              }
+            ]
+          },
+          {
+            "Nombre": "IngresoPromedio",
+            "Etiqueta": "Ingresos promedio",
+            "Obligatorio": true,
+            "Tipo": "Select",
+            "Opciones": [
+              {
+                "Id": "Salario1",
+                "Valor": "1 Salario mínimo"
+              },
+              {
+                "Id": "Salario2",
+                "Valor": "Entre 1 y 2 salarios mínimos"
+              },
+              {
+                "Id": "Salario3",
+                "Valor": "Entre 2 y 3 salarios mínimos"
+              },
+              {
+                "Id": "Salario4",
+                "Valor": "Más de 3 salarios mínimos"
+              }
+            ]
+          },
+          {
+            "Nombre": "JornadaLaboral",
+            "Etiqueta": "Jornada laboral",
+            "Obligatorio": true,
+            "Tipo": "Select",
+            "Opciones": [
+              {
+                "Id": "Diurna",
+                "Valor": "Diurna"
+              },
+              {
+                "Id": "Nocturna",
+                "Valor": "Nocturna"
+              }
+            ]
+          },
+          {
+            "Nombre": "AreaCargo",
+            "Etiqueta": "Área del cargo",
+            "Obligatorio": true,
+            "Tipo": "Select",
+            "Opciones": [
+              {
+                "Id": "Administrativo",
+                "Valor": "Administrativo"
+              },
+              {
+                "Id": "Operativa",
+                "Valor": "Operativa"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "DatosClinicos": [
+      {
+        "Nombre": "MotivoConsulta",
+        "Etiqueta": "Motivo de consulta",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "AntecedentesFamiliares",
+        "Etiqueta": "Antecedentes familiares",
+        "Obligatorio": true,
+        "Tipo": "checkbox",
+        "Opciones": [
+          {
+            "Id": "HipertensionArterial",
+            "Valor": "Hipertensión arterial"
+          },
+          {
+            "Id": "Diabetes",
+            "Valor": "Diabetes"
+          },
+          {
+            "Id": "Cancer",
+            "Valor": "Cáncer"
+          },
+          {
+            "Id": "Otros",
+            "Valor": "Otras enfermedades"
+          }
+        ]
+      },
+      {
+        "Nombre": "AntecedentesPersonales",
+        "Etiqueta": "Antecedentes personales",
+        "Obligatorio": true,
+        "Tipo": "checkbox",
+        "Opciones": [
+          {
+            "Id": "HTA",
+            "Valor": "Hipertensión arterial"
+          },
+          {
+            "Id": "Diabetes",
+            "Valor": "Diabetes"
+          },
+          {
+            "Id": "EnfRenal",
+            "Valor": "Enfermedad renal"
+          },
+          {
+            "Id": "EnfArticular",
+            "Valor": "Enfermedad articular"
+          },
+          {
+            "Id": "Tbc",
+            "Valor": "Tuberculosis"
+          },
+          {
+            "Id": "Venereas",
+            "Valor": "Enfermedades de transmisión sexual"
+          },
+          {
+            "Id": "SindConvulsivo",
+            "Valor": "Episodios de epilepsia o convulsión"
+          },
+          {
+            "Id": "Inmunologicos",
+            "Valor": "Inmunológicos"
+          },
+          {
+            "Id": "Hospitalizaciones",
+            "Valor": "Hiospitalizaciones"
+          },
+          {
+            "Id": "ToxicosAlergicos",
+            "Valor": "Tóxicos alérgicos"
+          },
+          {
+            "Id": "Traumatico",
+            "Valor": "Traumático"
+          },
+          {
+            "Id": "EscleroterapiaPrevia",
+            "Valor": "Escleroterapia previa"
+          },
+          {
+            "Id": "Planificacion",
+            "Valor": "Planificación"
+          },
+          {
+            "Id": "FactoresAgravantes",
+            "Valor": "Factores agravantes"
+          },
+          {
+            "Id": "Otro",
+            "Valor": "Otras enfermedades"
+          }
+        ]
+      },
+      {
+        "Nombre": "RevisionSistemas",
+        "Etiqueta": "Revisión por sistemas",
+        "Obligatorio": true,
+        "Tipo": "checkbox",
+        "Opciones": [
+          {
+            "Id": "Asintomatico",
+            "Valor": "Sin síntomas"
+          },
+          {
+            "Id": "PresentaEpilepsia",
+            "Valor": "Presenta epilepsia o convulsiones"
+          },
+          {
+            "Id": "DeformidadesAmputaciones",
+            "Valor": "Manifiesta tener deformidades amputaciones a nivel osteomuscular"
+          },
+          {
+            "Id": "Cardiovascular",
+            "Valor": "Cardiovascular"
+          },
+          {
+            "Id": "Dermatologico",
+            "Valor": "Dermatológico"
+          },
+          {
+            "Id": "Digestivo",
+            "Valor": "Digestivo"
+          },
+          {
+            "Id": "Genitourinario",
+            "Valor": "Genitourinario"
+          },
+          {
+            "Id": "Neurologico",
+            "Valor": "Neurológico"
+          },
+          {
+            "Id": "Ocular",
+            "Valor": "Ocular"
+          },
+          {
+            "Id": "Otorrinolaringologico",
+            "Valor": "Otorrinolaringológico"
+          },
+          {
+            "Id": "Osteomuscular",
+            "Valor": "Osteomuscular"
+          },
+          {
+            "Id": "Respiratorio",
+            "Valor": "Respiratorio"
+          },
+          {
+            "Id": "OtrosSistemas",
+            "Valor": "Otros sistemas"
+          }
+        ]
+      },
+      {
+        "Nombre": "ActividadFisica",
+        "Etiqueta": "Actividad física",
+        "Obligatorio": true,
+        "Tipo": "checkbox",
+        "Opciones": [
+          {
+            "Id": "Ejercicio",
+            "Valor": "Ejercicio o deporte"
+          },
+          {
+            "Id": "DeportesChoque",
+            "Valor": "Deportes de choque"
+          },
+          {
+            "Id": "ActividadesManuales",
+            "Valor": "Actividades manuales"
+          },
+          {
+            "Id": "OficiosDomesticos",
+            "Valor": "Oficios domésticos"
+          }
+        ]
+      },
+      {
+        "Nombre": "HabitosToxicos",
+        "Etiqueta": "Hábitos tóxicos",
+        "Obligatorio": true,
+        "Tipo": "checkbox",
+        "Opciones": [
+          {
+            "Id": "ConsumeAlcohol",
+            "Valor": "Consumo de alcohol"
+          },
+          {
+            "Id": "Fumador",
+            "Valor": "Fumador actual"
+          },
+          {
+            "Id": "ExFumador",
+            "Valor": "ExFumador"
+          },
+          {
+            "Id": "UsaPsicoactivas",
+            "Valor": "Consumo de sustancias psicoactivas"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "datos": {
+    "DatosPersonales": [
+      {
+        "Nombre": "TipoIdentificacion",
+        "Etiqueta": "Tipo de identificacion",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "CC",
+            "Valor": "Cedula de Ciudadanía"
+          },
+          {
+            "Id": "RC",
+            "Valor": "Registro Civil"
+          }
+        ]
+      },
+      {
+        "Nombre": "Genero",
+        "Etiqueta": "Género",
+        "Obligatorio": true,
+        "Tipo": "Select",
+        "Opciones": [
+          {
+            "Id": "Masculino",
+            "Valor": "Masculino"
+          },
+          {
+            "Id": "Femenino",
+            "Valor": "Femenino",
+            "Adicional": [
+              {
+                "Nombre": "MENARQUIA",
+                "Etiqueta": "Edad de la primera menstruación",
+                "Obligatorio": true,
+                "Tipo": "InputText"
+              }
+            ]
+          },
+          {
+            "Id": "Indeterminado",
+            "Valor": "Indeterminado"
+          }
+        ]
+      },
+      {
+        "Nombre": "NumeroIdentificacion",
+        "Etiqueta": "Número de identificacion",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      }
+    ],
+    "DatosClinicos": [
+      {
+        "Nombre": "MotivoConsulta",
+        "Etiqueta": "Motivo de consulta",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      },
+      {
+        "Nombre": "MotivoConsulta",
+        "Etiqueta": "Motivo de consulta",
+        "Obligatorio": true,
+        "Tipo": "InputText"
+      }
+    ]
+  }
+}
