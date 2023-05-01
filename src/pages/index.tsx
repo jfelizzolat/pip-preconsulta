@@ -19,7 +19,7 @@ const tipografia = Be_Vietnam_Pro({
 
 export default function HomePage() {
   const { datos, setDatos } = useContext(DatosContext);
-  const [otp, setOtp] = useState(false);
+  const [otp, setOtp] = useState(true);
   const [errorOtp, setErrorOtp] = useState(false);
   const [valueOtp, setValueOtp] = useState("");
   const [camposForm, setCamposForm] = useState<ConstructorForm>();
@@ -35,7 +35,9 @@ export default function HomePage() {
   };
 
   const obtenerFormulario = async () => {
-    const response = await fetch("http://localhost:3000/datos.json");
+    const response = await fetch(
+      "https://pip-preconsulta.vercel.app/datos.json"
+    );
     const result: ConstructorForm = await response.json();
     setCamposForm(result);
   };
